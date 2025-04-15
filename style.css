@@ -1,0 +1,270 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #eeeeee;
+}
+
+header{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 30px 25px 30px 40px;
+    background-color: white;
+}
+
+h2{
+    padding-top: 40px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+
+h3{
+    padding: 30px 0px 0px 30px;
+    text-align: start;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0;
+}
+
+a{
+    margin: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.anchors{
+    margin-left: 40px;
+}
+
+
+.imgmain{
+    padding-top: 50px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.imgmain>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.card{
+    width: 500px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card>.link{
+    margin: 20px;
+}
+
+.card>p{
+    text-align: start;
+    padding-left: 30px;
+    text-wrap: pretty;
+}
+
+.img-box>img{
+    width: 100%;
+    height: 80%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.card-container{
+    margin: 0;
+    display:flex;
+    justify-content: center;
+}
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+
+.cube {
+    position: relative;
+    right: -60px;
+    flex: 1;
+    background-color: white;
+    padding: 70px 30px 0px 30px;
+    height: 480px;
+    overflow: hidden;
+    border-radius: 20px;
+    text-align: start;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cube>button {
+    display: flex;
+    padding: 12px 30px;
+    border-radius: 25px;
+    justify-self: center;
+    border: 2px solid black;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.imglogococacola {
+    padding-top: 90px;
+    height: 480px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.imglogococacola>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;
+}
+
+
+.cards-marcas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 0 100px 0;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.cards-marcas>img {
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cocacola{
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.fanta{
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.sprite{
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.schweppes{
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.ades{
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.pwd{
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.cocacola:hover, .fanta:hover, .sprite:hover,
+.schweppes:hover, .ades:hover, .pwd:hover {
+    transform: scale(1.07);
+}
+
+footer {
+    margin-top: auto;
+    background-color: black;
+    height: 95vh;
+}
+
+.container-footer{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 10vw;
+    gap: 60px;
+}
+
+.colawhite{
+    padding: 120px 0 20px 10vw;
+}
+
+h4{
+    font-size: 12px;
+    color: #a7a7a7;
+}
+
+.about-us{
+    width: 200px auto;
+    height: 200px;
+    color: white;
+}
+
+.help{
+    width: 200px auto;
+    height: 200px;
+    color: white;
+}
+
+.legal{
+    width: 200px auto;
+    height: 200px;
+    color: white;
+}
+
+hr{
+    color: white;
+    width: 80vw;
+}
+
+h5{
+    display: flex;
+    justify-content: end;
+    padding-top: 25px;
+    padding-right: 10vw;
+    color: white;
+}
