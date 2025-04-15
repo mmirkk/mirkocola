@@ -10,7 +10,7 @@ header{
     display: flex;
     justify-content:flex-start;
     align-items: center;
-    padding: 30px 25px 30px 40px;
+    padding: 30px 25px 30px 17%;
     background-color: white;
 }
 
@@ -46,7 +46,8 @@ a{
 
 .imgmain{
     padding-top: 50px;
-    width: 85%;
+    width: 65%;
+    height: 600px;
     margin: 0 auto;
 }
 
